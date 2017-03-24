@@ -44,8 +44,8 @@ void error();
 #define LEFT_PAREN 25
 #define RIGHT_PAREN 26
 
-main(int argo, char* argv[]) { 
-  if (argo != 2) {
+main(int argc, char* argv[]) { 
+  if (argc != 2) {
       printf("NO FILE GIVEN!\n");
       exit(0);
   }
