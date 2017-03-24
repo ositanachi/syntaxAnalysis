@@ -15,7 +15,7 @@ char endCharacter;
 char * expression = NULL;
 FILE *in_fp, *fopen();
 
-//*** Function Declarations ***//
+//List of functions
 void addChar();
 void getChar();
 void getNonBlank();
@@ -27,13 +27,13 @@ void term();
 void factor();
 void error();
 
-//*** Character Classes ***//
+//Characters
 #define LETTER 0
 #define DIGIT 1
 #define NEWLINE 2
 #define UNKNOWN 99
 
-//*** Token Codes ***//
+//Tokens
 #define INT_LIT 10
 #define IDENT 11
 #define ASSIGN_OP 20
